@@ -1,0 +1,44 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+api_login_check:
+    path: /api/login_check
+peopledata:
+    path: /api/peopledata
+    controller: App\Controller\FinanceController::peopledata
+person:
+    path: /api/person
+    controller: App\Controller\FinanceController::person
+personallfinance:
+    path: /api/personallfinance
+    controller: App\Controller\FinanceController::personallfinance
+personallbake:
+    path: /api/personallbake
+    controller: App\Controller\FinanceController::personallbake
+newperson:
+    path: /api/newperson
+    controller: App\Controller\FinanceController::newperson
+updateperson:
+   path: /api/updateperson
+   controller: App\Controller\FinanceController::updateperson
+newbake:
+   path: /api/newbake
+   controller: App\Controller\FinanceController::newbake
+newfinance:
+   path: /api/newfinance
+   controller: App\Controller\FinanceController::newfinance
+finance:
+   path: /api/finance
+   controller: App\Controller\FinanceController::finance
+bake:
+   path: /api/bake
+   controller: App\Controller\FinanceController::bake
+updatefin:
+   path: /api/updatefin
+   controller: App\Controller\FinanceController::updatefin
+updatelen:
+   path: /api/updatelen
+   controller: App\Controller\FinanceController::updatelen
+   
+
+
